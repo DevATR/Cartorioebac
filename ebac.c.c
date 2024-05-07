@@ -129,6 +129,7 @@ int main(){ // funcao principal..(MENU)
 	printf("1- Registrar Cliente\n\n");
 	printf("2- Consultar Cliente\n\n");
 	printf("3- Deletar Cliente\n\n");
+	printf("4- Sair do Sistema\n\n");
 	printf("Digite a opção:");
 	scanf("%d", &opcao);
 	
@@ -147,6 +148,11 @@ int main(){ // funcao principal..(MENU)
     
     case 3:
     deletar();
+    break;
+    
+    case 4:
+    printf("\t\tObrigado por utilizar o sistema\n\n");
+    return 0;
     break;
     
     default:
